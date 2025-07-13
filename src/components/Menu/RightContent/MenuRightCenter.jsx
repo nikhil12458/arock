@@ -14,7 +14,7 @@ const MenuRightCenter = () => {
       duration: 0.5,
       ease: "power2.inOut",
     });
-    console.log("Hover animation triggered on:", targetSpan.textContent);
+    // console.log("Hover animation triggered on:", targetSpan.textContent);
   };
 
   const resetAnimation = (index) => {
