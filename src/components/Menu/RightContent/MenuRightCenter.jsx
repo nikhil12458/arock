@@ -36,7 +36,7 @@ const MenuRightCenter = () => {
           ref={(el) => (headingRefs.current[index] = el)} // assign ref
           onMouseEnter={() => moveAnimation(index)}
           onMouseLeave={() => resetAnimation(index)}
-          className="font-[u7] tracking-tight uppercase text-[2vw] leading-[2vw] overflow-hidden h-[2vw]"
+          className="font-[u7] tracking-tight uppercase text-[2vw] leading-[2vw] cursor-pointer overflow-hidden h-[2vw]"
         >
           <div>
             <span style={{display: "block"}}>{item}</span>
